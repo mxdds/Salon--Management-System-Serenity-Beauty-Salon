@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="593.0" prefWidth="1013.0" stylesheets="@../style/DashboardForm.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.serenity.controller.DashbordFormController">
+   <children>
+      <Label layoutX="10.0" layoutY="11.0" prefHeight="58.0" prefWidth="205.0" styleClass="welLabel" stylesheets="@../style/DashboardForm.css" text="Welcome" />
+      <Pane layoutX="53.0" layoutY="119.0" prefHeight="89.0" prefWidth="189.0" styleClass="paneTabel">
+         <children>
+            <ImageView fitHeight="50.0" fitWidth="40.0" layoutX="9.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/images/emp.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="7.0" layoutY="56.0" styleClass="paneTxt" text="Total Employee">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Circle fill="#ffffff00" layoutX="29.0" layoutY="31.0" radius="25.0" stroke="#ff0dd4" strokeType="INSIDE" />
+            <Label fx:id="txtTotEmp" layoutX="125.0" layoutY="3.0" styleClass="paneitemTxt" text="03" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="46.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="283.0" layoutY="119.0" prefHeight="89.0" prefWidth="189.0" styleClass="paneTabel">
+         <children>
+            <Circle fill="#ffffff00" layoutX="29.0" layoutY="32.0" radius="25.0" stroke="#ff0dd4" strokeType="INSIDE" />
+            <ImageView fitHeight="50.0" fitWidth="40.0" layoutX="9.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/images/customer.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="9.0" layoutY="59.0" styleClass="paneTxt" text="Today Customers">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="txtTotCustomer" layoutX="122.0" layoutY="-1.0" styleClass="paneitemTxt" text="12" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="46.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="511.0" layoutY="119.0" prefHeight="89.0" prefWidth="189.0" styleClass="paneTabel">
+         <children>
+            <Circle fill="#ffffff00" layoutX="26.0" layoutY="28.0" radius="25.0" stroke="#ff0dd4" strokeType="INSIDE" />
+            <ImageView fitHeight="50.0" fitWidth="40.0" layoutX="6.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/images/appoinment.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="5.0" layoutY="56.0" styleClass="paneTxt" text="Total Appoinment">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="txtTpotAppoinment" layoutX="123.0" layoutY="-4.0" styleClass="paneitemTxt" text="18" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="46.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="747.0" layoutY="119.0" prefHeight="89.0" prefWidth="189.0" styleClass="paneTabel">
+         <children>
+            <Circle fill="#ffffff00" layoutX="28.0" layoutY="27.0" radius="25.0" stroke="#ff0dd4" strokeType="INSIDE" />
+            <ImageView fitHeight="50.0" fitWidth="40.0" layoutX="8.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/images/Cost.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="5.0" layoutY="58.0" styleClass="paneTxt" text="Total Income">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="txtpayIncome" layoutX="59.0" layoutY="13.0" styleClass="paneitemTxt" text="1200" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="66.0" layoutY="-1.0" styleClass="paneTxt" text="Rs." textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <PieChart fx:id="pieChart" layoutX="507.0" layoutY="238.0" prefHeight="321.0" prefWidth="446.0" />
+      <ImageView fx:id="imgDashImage" fitHeight="347.0" fitWidth="401.0" layoutX="39.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/service-img-1.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+
+<AnchorPane prefHeight="593.0" prefWidth="485.0" stylesheets="@../style/crudForm.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.serenity.controller.ProductManageFormController">
+   <children>
+      <Label layoutX="61.0" layoutY="39.0" styleClass="labelHead1" text="Products" />
+      <Label layoutX="198.0" layoutY="39.0" styleClass="labelHead1" text="Credential" />
+      <Label layoutX="345.0" layoutY="39.0" styleClass="labelHead1" text="Form" />
+      <TextField layoutX="201.0" layoutY="201.0" prefHeight="29.0" prefWidth="275.0" promptText="Name" styleClass="textBox" />
+      <Label layoutX="29.0" layoutY="205.0" styleClass="labelTxt" text="Name" />
+      <Label layoutX="29.0" layoutY="155.0" styleClass="labelTxt" text="Product Id" />
+      <TextField layoutX="203.0" layoutY="150.0" prefHeight="29.0" prefWidth="275.0" promptText="Auto Genarate" styleClass="textBox" />
+      <TextField layoutX="199.0" layoutY="251.0" prefHeight="29.0" prefWidth="275.0" promptText="Address" styleClass="textBox" />
+      <Label layoutX="29.0" layoutY="255.0" styleClass="labelTxt" text="Type" />
+      <TextField layoutX="199.0" layoutY="301.0" prefHeight="29.0" prefWidth="275.0" promptText="Tp No" styleClass="textBox" />
+      <Label layoutX="29.0" layoutY="305.0" styleClass="labelTxt" text="Price" />
+      <TextField layoutX="199.0" layoutY="351.0" prefHeight="29.0" prefWidth="275.0" promptText="Email" styleClass="textBox" />
+      <Label layoutX="29.0" layoutY="355.0" styleClass="labelTxt" text="Discription" />
+      <Button layoutX="41.0" layoutY="512.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="87.0" styleClass="addbtn" text="Save" />
+      <Button layoutX="151.0" layoutY="512.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="87.0" styleClass="btnUpdate" stylesheets="@../style/crudForm.css" text="Update" />
+      <Button layoutX="261.0" layoutY="512.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="87.0" styleClass="btnDele" text="Delete" />
+      <Button layoutX="371.0" layoutY="512.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="87.0" styleClass="btncan" text="Clear" />
+      <Line endX="100.0" fill="RED" layoutX="234.0" layoutY="88.0" startX="-100.0" stroke="#ff0079" />
+   </children>
+</AnchorPane>

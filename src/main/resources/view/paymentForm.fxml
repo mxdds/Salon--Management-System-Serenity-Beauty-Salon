@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="593.0" prefWidth="1013.0" stylesheets="@../style/customerform.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.serenity.controller.PaymentFormController">
+   <children>
+      <Label layoutX="21.0" layoutY="19.0" styleClass="labelHead1" text="Payment" />
+      <Label layoutX="158.0" layoutY="19.0" styleClass="labelHead1" text="Management" />
+   </children>
+</AnchorPane>

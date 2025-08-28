@@ -1,0 +1,120 @@
+.paneTabel{
+    -fx-background-color:  linear-gradient(to right top, #ffffff, #ffc0f5, #f8659e);
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+    -fx-border-color: #ffffff;
+    -fx-border-radius: 0px 30px 0px 10px;
+    -fx-background-radius:  0px 30px 0px 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 1, 4, 2, 3);
+}
+.paneTxt{
+    -fx-font-size: 20px;
+    -fx-font-style: bold;
+    -fx-font-weight: 800;
+}
+.paneitemTxt{
+    -fx-font-size: 46px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #fff;
+}
+.paneTxt2{
+    -fx-font-size: 50px;
+    -fx-font-style: bold;
+    -fx-font-weight: 800;
+}
+
+.labelHead1{
+    -fx-fill: #ff699d;
+    -fx-font-size: 30px;
+    -fx-font-style: solid;
+    -fx-text-fill: linear-gradient(to right top, #000000, #867884, #ff699d);;
+}
+.textBox{
+    -fx-font-size: 13;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-border-color: #ff4b94;
+    -fx-text-fill: #000000;
+
+}
+.addbtn{
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-background-color: #00ff9f;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 1, 4, 2, 3);
+}
+.addbtn:hover{
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-background-color: #007a4b;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 1, 4, 2, 3);
+}
+.btnBook{
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-background-color: #ffa6c8;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 1, 4, 2, 3);
+}
+
+.btnBook:hover{
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-background-color: #e5166a;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 1, 4, 2, 3);
+}
+
+.btncan{
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-background-color: #a69ea4;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 1, 4, 2, 3);
+}
+
+.btncan:hover{
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-background-color: #525252;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 1, 4, 2, 3);
+}
+
+.labelTxt{
+    -fx-font-size: 16px;
+    -fx-text-fill: #000000;
+}
+.btnUpdate{
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-background-color: #e1a566;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 1, 4, 2, 3);
+}
+
+.btnUpdate:hover{
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-background-color: #de6e00;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 1, 4, 2, 3);
+}
+
+.btnDele{
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-background-color: #ff6556;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 1, 4, 2, 3);
+}
+
+.btnDele:hover{
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-background-color: #bd1904;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 1, 4, 2, 3);
+}

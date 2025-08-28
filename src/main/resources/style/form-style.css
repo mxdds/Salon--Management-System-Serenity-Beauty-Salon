@@ -1,0 +1,60 @@
+
+.labelHead1{
+    -fx-fill: #ff699d;
+    -fx-font-size: 30px;
+    -fx-font-style: solid;
+    -fx-text-fill: linear-gradient(to right top, #000000, #867884, #ff699d);;
+}
+.textBox{
+    -fx-font-size: 20;
+    -fx-border-radius: 40;
+    -fx-background-radius: 40;
+    -fx-border-color: #ff4b94;
+    -fx-text-fill: linear-gradient(to right top, #ff076c, #545454, #ff699d);
+
+}
+.addbtn{
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-background-color: #00ff9f;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 1, 4, 2, 3);
+}
+.addbtn:hover{
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-background-color: #007a4b;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 1, 4, 2, 3);
+}
+.btnBook{
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-background-color: #ffa6c8;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 1, 4, 2, 3);
+}
+
+.btnBook:hover{
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-background-color: #e5166a;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 1, 4, 2, 3);
+}
+
+.btncan{
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-background-color: #a69ea4;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 1, 4, 2, 3);
+}
+
+.btncan:hover{
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-background-color: #525252;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 1, 4, 2, 3);
+}

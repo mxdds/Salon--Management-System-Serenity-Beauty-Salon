@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+
+<AnchorPane prefHeight="593.0" prefWidth="485.0" stylesheets="@../style/crudForm.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.serenity.controller.EmpManageFormContrler">
+   <children>
+      <Label layoutX="50.0" layoutY="28.0" styleClass="labelHead1" text="Employee" />
+      <Label layoutX="187.0" layoutY="28.0" styleClass="labelHead1" text="Credential" />
+      <Label layoutX="334.0" layoutY="28.0" styleClass="labelHead1" text="Form" />
+      <TextField layoutX="190.0" layoutY="190.0" prefHeight="29.0" prefWidth="275.0" promptText="Name" styleClass="textBox" />
+      <Label layoutX="18.0" layoutY="194.0" styleClass="labelTxt" text="Employee Name" />
+      <Label layoutX="18.0" layoutY="144.0" styleClass="labelTxt" text="Employee Id" />
+      <TextField layoutX="192.0" layoutY="139.0" prefHeight="29.0" prefWidth="275.0" promptText="Auto Genarate" styleClass="textBox" />
+      <TextField layoutX="188.0" layoutY="240.0" prefHeight="29.0" prefWidth="275.0" promptText="Address" styleClass="textBox" />
+      <Label layoutX="18.0" layoutY="244.0" styleClass="labelTxt" text="Employee Address" />
+      <TextField layoutX="188.0" layoutY="290.0" prefHeight="29.0" prefWidth="275.0" promptText="Tp No" styleClass="textBox" />
+      <Label layoutX="18.0" layoutY="294.0" styleClass="labelTxt" text="Conatct" />
+      <TextField layoutX="188.0" layoutY="340.0" prefHeight="29.0" prefWidth="275.0" promptText="Email" styleClass="textBox" />
+      <Label layoutX="18.0" layoutY="344.0" styleClass="labelTxt" text="Email" />
+      <TextField layoutX="188.0" layoutY="390.0" prefHeight="29.0" prefWidth="275.0" promptText="Gender" styleClass="textBox" />
+      <Label layoutX="18.0" layoutY="394.0" styleClass="labelTxt" text="Gender" />
+      <Button layoutX="30.0" layoutY="501.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="87.0" styleClass="addbtn" text="Save" />
+      <Button layoutX="140.0" layoutY="501.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="87.0" styleClass="btnUpdate" text="Update" />
+      <Button layoutX="250.0" layoutY="501.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="87.0" styleClass="btnDele" text="Delete" />
+      <Button layoutX="360.0" layoutY="501.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="87.0" styleClass="btncan" text="Clear" />
+      <Line endX="100.0" fill="#ff4b94" layoutX="230.0" layoutY="77.0" startX="-100.0" stroke="#ff0079" />
+   </children>
+</AnchorPane>

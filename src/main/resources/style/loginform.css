@@ -1,0 +1,49 @@
+.body{
+    -fx-background-color: #FDC4E6;  /*linear-gradient(to left top,rgba(96,97,101,1) , #f1f1f2);    */
+}
+.pane {
+    -fx-background-color: #fff;
+    -fx-border-radius: 40px 40px 40px 40px; /* Individual radius for each corner */
+    -fx-background-radius: 40px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 3, 9, 5, 6);
+}
+.text{
+    -fx-text-fill: #000;
+    -fx-font-size: 20px;
+}
+.text2{
+    -fx-font-size: 50px;
+    -fx-fill: #7D7979;
+}
+.text3{
+    -fx-font-size: 60px;
+    -fx-fill: #FF93D4;
+}
+
+.text4{
+    -fx-font-size: 20px;
+    -fx-fill: #000000;
+}
+.text-field{
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+    -fx-border-color: #FF93D4;
+    -fx-border-width: 2px;
+}
+.loginbtn{
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+    -fx-background-color: #FF93D4;
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+    -fx-border-color: #fff;
+}
+.loginbtn:hover{
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+    -fx-background-color: #ff13a3;
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+    -fx-border-color: #fff;
+
+}

@@ -1,0 +1,29 @@
+.welLabel{
+    -fx-fill: #e3689a;
+    -fx-font-size: 40px;
+}
+.paneTabel{
+    -fx-background-color:  linear-gradient(to right top, #ffffff, #ffc0f5, #f8659e);
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+    -fx-border-color: #ffffff;
+    -fx-border-radius: 0px 30px 0px 10px;
+    -fx-background-radius:  0px 30px 0px 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 1, 4, 2, 3);
+}
+.paneTxt{
+    -fx-font-size: 20px;
+    -fx-font-style: bold;
+    -fx-font-weight: 800;
+}
+
+.paneTxt2{
+    -fx-font-size: 50px;
+    -fx-font-style: bold;
+    -fx-font-weight: 800;
+}
+.paneitemTxt{
+    -fx-font-size: 46px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #fff;
+}

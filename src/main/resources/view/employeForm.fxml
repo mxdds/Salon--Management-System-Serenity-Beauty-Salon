@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="593.0" prefWidth="1013.0" stylesheets="@../style/customerform.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.serenity.controller.EmployeFormController">
+   <children>
+      <Label layoutX="32.0" layoutY="14.0" styleClass="labelHead1" text="Employee" />
+      <Label layoutX="171.0" layoutY="14.0" styleClass="labelHead1" text="Management" />
+      <TableView layoutX="12.0" layoutY="253.0" prefHeight="306.0" prefWidth="991.0">
+         <columns>
+            <TableColumn prefWidth="177.0" text="Employee Id" />
+            <TableColumn prefWidth="221.0" text="Employee Name" />
+            <TableColumn prefWidth="221.0" text="Addresss" />
+            <TableColumn prefWidth="371.0" text="Email/Tp no" />
+         </columns>
+      </TableView>
+      <Pane layoutX="783.0" layoutY="92.0" prefHeight="89.0" prefWidth="189.0" styleClass="paneTabel">
+         <children>
+            <ImageView fitHeight="50.0" fitWidth="40.0" layoutX="9.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/images/emp.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="7.0" layoutY="56.0" styleClass="paneTxt" text="Total Employee">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Circle fill="#ffffff00" layoutX="29.0" layoutY="31.0" radius="25.0" stroke="#ff0dd4" strokeType="INSIDE" />
+            <Label fx:id="txtTotEmp11" layoutX="125.0" layoutY="3.0" styleClass="paneitemTxt" text="03" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="46.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button layoutX="767.0" layoutY="21.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="227.0" styleClass="btnBook" text="Manage Employee" />
+   </children>
+</AnchorPane>
