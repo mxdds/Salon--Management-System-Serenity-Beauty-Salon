@@ -58,7 +58,21 @@ src/main/resources/sql/                  # SQL scripts
 - Set up your database as required and update the database connection settings in the project if needed.
 
 ## Screenshots
-_Add screenshots of the application UI here._
+
+Below are screenshots of the Serenity Beauty Salon Management System. All screenshots are located in:
+
+```
+src/resources/assets/images/screenshots/
+```
+
+| Screenshot | Description |
+|------------|-------------|
+| ![img_1](src/resources/assets/images/screenshots/img_1.png) | Login Form |
+| ![img_2](src/resources/assets/images/screenshots/img_2.png) | Dashboard |
+| ![img_3](src/resources/assets/images/screenshots/img_3.png) | Customer Management |
+| ![img_4](src/resources/assets/images/screenshots/img_4.png) | Employee Management |
+| ![img_5](src/resources/assets/images/screenshots/img_5.png) | Appointment Scheduling |
+| ![img](src/resources/assets/images/screenshots/img.png) | Payment Processing |
 
 ## License
 This project is for educational purposes.
@@ -68,4 +82,3 @@ This project is for educational purposes.
 
 ---
 Feel free to contribute or suggest improvements!
-
