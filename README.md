@@ -62,17 +62,26 @@ src/main/resources/sql/                  # SQL scripts
 Below are screenshots of the Serenity Beauty Salon Management System. All screenshots are located in:
 
 ```
-src/resources/assets/images/screenshots/
+src/main/resources/assets/images/screenshots/
 ```
 
-| Screenshot | Description |
-|------------|-------------|
-| ![img_1](src/resources/assets/images/screenshots/img_1.png) | Login Form |
-| ![img_2](src/resources/assets/images/screenshots/img_2.png) | Dashboard |
-| ![img_3](src/resources/assets/images/screenshots/img_3.png) | Customer Management |
-| ![img_4](src/resources/assets/images/screenshots/img_4.png) | Employee Management |
-| ![img_5](src/resources/assets/images/screenshots/img_5.png) | Appointment Scheduling |
-| ![img](src/resources/assets/images/screenshots/img.png) | Payment Processing |
+### Login Form
+![Login Form](src/main/resources/assets/images/screenshots/img.png)
+
+### Dashboard
+![Dashboard](src/main/resources/assets/images/screenshots/img_1.png)
+
+### Customer Management
+![Customer Management](src/main/resources/assets/images/screenshots/img_3.png)
+
+### Employee Management
+![Employee Management](src/main/resources/assets/images/screenshots/img_4.png)
+
+### Appointment Scheduling
+![Appointment Scheduling](src/main/resources/assets/images/screenshots/img_2.png)
+
+### Product Management
+![Product Management](src/main/resources/assets/images/screenshots/img_5.png)
 
 ## License
 This project is for educational purposes.
