@@ -57,6 +57,11 @@ src/main/resources/sql/                  # SQL scripts
 - The SQL schema is located at `src/main/resources/sql/schema.sql`.
 - Set up your database as required and update the database connection settings in the project if needed.
 
+## Demo Video
+Watch a full demo of the Serenity Beauty Salon Management System here:  
+[![Demo Video](https://img.youtube.com/vi/mFvqh4w7L6M/0.jpg)](https://youtu.be/mFvqh4w7L6M)  
+[Click here to watch on YouTube](https://youtu.be/mFvqh4w7L6M)
+
 ## Screenshots
 
 Below are screenshots of the Serenity Beauty Salon Management System. All screenshots are located in:
